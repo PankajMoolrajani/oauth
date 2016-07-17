@@ -1,2 +1,2 @@
 # oauth
-Python based RESTful implementation of oauth protocol
+Python based RESTful implementation of OAuth protocol.
