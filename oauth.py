@@ -1,8 +1,10 @@
 from flask import Flask
 from healthcheck import api_healthcheck
+from authentication import api_authentication
 
 app = Flask(__name__)
 app.register_blueprint(api_healthcheck)
+app.register_blueprint(api_authentication)
 
 @app.route('/')
 def oauth():
